@@ -34,6 +34,8 @@ h1 {
     justify-content: center;
     background-color: var(--Rose-White);
     border-radius: 12px;
+    padding-left: 1.75rem;
+
 }
 
 img{
@@ -59,7 +61,6 @@ h3 {
     font-family: "Young Serif", serif;
     font-weight: 400;
     font-size: 1.5rem;
-    margin-left: 1.75rem;
     margin-bottom: 1rem;
     color: var(--Dark-Raspberry);
 }
@@ -87,6 +88,7 @@ h3 {
  
  li {
     padding-left: 16px;
+    padding-bottom: 8px;
  }
 
   li::marker {
