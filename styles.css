@@ -50,7 +50,6 @@ main {
 h2 {
     color: var(--Nutmeg);
     font-size: 1.75rem;
-    text-align: center;
     font-family: "Young Serif", serif;
     font-weight: 400;
 }
