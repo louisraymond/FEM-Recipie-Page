@@ -119,8 +119,12 @@ table {
 
 table td {
     text-indent: 2.3rem;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid var(--Light-Grey);
     padding: 0.8rem 0 1rem 0;
+}
+
+section {
+    border-bottom: 1px solid var(--Light-Grey);
 }
 
 @media only screen and (max-width: 600px) {
@@ -146,7 +150,7 @@ table td {
     }
 
     .content {
-        padding: 16px;
+        padding: 32px;
         margin: 0px;
     }
 }
