@@ -15,9 +15,10 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: var(--white);
 	color: var(--Wenge-Brown);
 	line-height: 1.5;
+    font-size:1.125rem;
+    background-color: var(--Eggshell);
 }
 
 h1 {
@@ -47,6 +48,8 @@ main {
 	padding: 40px;
 	border-radius: 24px;
 	width: 736px;
+    margin:100px;
+    background-color: var(--White);
 }
 
 h2 {
@@ -108,12 +111,6 @@ li::marker {
 	padding-bottom: 0px;
 }
 
-/* .nutrition  {
-    list-style-type: none;
-    justify-content: flex-start;
-    flex-grow:1;
-} */
-
 table {
     table-layout: fixed;
     width: 100%;
@@ -124,4 +121,32 @@ table td {
     text-indent: 2.3rem;
     border-bottom: 1px solid lightgray;
     padding: 0.8rem 0 1rem 0;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-family: "Outfit", sans-serif;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: left;
+        margin:0px;
+    }
+
+    main {
+        padding: 0px;
+        width: 100%;
+        border-radius: 0px;
+        margin: 0px;
+        }
+
+    img {
+        border-radius: 0px;
+        height: 171px;
+        margin: 0;
+    }
+
+    .content {
+        padding: 16px;
+        margin: 0px;
+    }
 }
