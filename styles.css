@@ -41,7 +41,8 @@ h1 {
 img {
 	border-radius: 12px;
 	height: 300px;
-	margin: 40px 0 40px 0;
+    width: 100%;
+    object-fit: fill;
 }
 
 main {
@@ -70,7 +71,7 @@ h3 {
 .attribution {
 	bottom: 10px;
 	margin-top: 60px;
-	font-size: 12px;
+	font-size: 1.5rem;
 }
 
 .nutrition {
